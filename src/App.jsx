@@ -18,6 +18,9 @@ function App() {
   // data from store
   const { tableData, totalRecords } = useSelector((store) => store);
 
+  
+
+  // console.log(totalRecords)
   const dispatch = useDispatch();
 
   const handlechange = (e) => {
@@ -75,7 +78,7 @@ function App() {
       m = 12;
     }
 
-    dispatch(getTransactions(m, "m", page, limit));
+    dispatch(getTransactions(m, "", page, limit));
 
     getStatData(m);
     getBarChartData(m);
@@ -157,7 +160,7 @@ function App() {
           <span>-</span>
           <button
             className="border-2 bg-red-400 text-black p-[0.5rem] rounded-lg"
-            disabled={page === totalRecords}
+            disabled={page === Math.ceil(totalRecords/limit)}
             onClick={() => hadleClick(1)}
           >
             next
