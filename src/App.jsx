@@ -103,7 +103,7 @@ function App() {
         <div className="mt-[3rem] ">
           Select month:{" "}
           <select
-            className="bg-yellow-300 text-black p-[0.5rem] rounded-full pl-[-.3rem] pr-[-.3rem]"
+            className="bg-red-300 text-black p-[0.5rem] rounded-full pl-[-.3rem] pr-[-.3rem]"
             value={month}
             onChange={handlechange}
           >
@@ -182,13 +182,13 @@ function App() {
         <span className="text-3xl">Statastic-{month}</span>
         <div className="w-[300px] m-auto rounded-xl bg-red-400 mt-2 flex flex-col text-left  p-[2rem]">
           <div className="flex justify-between">
-            <pre>Total Sale {stat.totalSaleAmtOfMth}</pre>
+            <pre>Total Sale          {stat.totalSaleAmtOfMth}</pre>
           </div>
           <div className="flex justify-between">
-            <pre>Total Sold Items {stat.totalSoldPerMonth}</pre>
+            <pre>Total Sold Items    {stat.totalSoldPerMonth}</pre>
           </div>
           <div className="flex justify-between">
-            <pre>Total Unsold Items {stat.totalNotSoldPerMonth}</pre>
+            <pre>Total Unsold Items  {stat.totalNotSoldPerMonth}</pre>
           </div>
         </div>
       </div>

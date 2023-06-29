@@ -52,7 +52,7 @@ const SearchBar = ({month}) => {
 
   return (
     <div className="mt-[3rem]">
-        <input type="text" className="rounded-full w-[20rem] p-[0.5rem] bg-yellow-300 text-black"
+        <input type="text" className="rounded-full w-[20rem] p-[0.5rem] bg-red-100 text-black"
         onChange={(e)=>{setQuery(e.target.value.toLowerCase())}} value={query} placeholder='search' />
     </div>
   )
