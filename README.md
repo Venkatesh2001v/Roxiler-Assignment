@@ -11,7 +11,7 @@ Roxiler Systems Assignment -1
 
 ## Installation
 ```bash
-git clone  
+git clone https://github.com/akashfulari18/Roxiler-System.git
 npm install 
 npm start
 ```
