@@ -3,28 +3,10 @@ Roxiler Systems Assignment -1
 
 
 
-## Featurey features of your application.
+## Featurey features of application.
 - search
 - pagination
 - visusal representation (charts)
-
-
-## Installation
-```bash
-git clone https://github.com/akashfulari18/Roxiler-System.git
-npm install 
-npm start
-```
-
-## Usage
-Provide instructions and examples on how to use your project.
-
-```bash
-# Example
-```
-
-Include screenshots as necessary.
-
 
 ## API Endpoints
 In case of Backend Applications provide a list of your API endpoints, methods, brief descriptions, and examples of request/response.
