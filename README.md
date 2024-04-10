@@ -33,4 +33,3 @@ GET /api/combineResponse     //- retrieve combined data of above mentioned 3 end
 - Redux
 - Tailwind CSS
 - Google Charts
-- 
